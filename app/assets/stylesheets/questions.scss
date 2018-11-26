@@ -1,0 +1,28 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1, h2, p {
+    font-family: sans-serif;
+}
+
+.container > p {
+    font-style: italic;
+}
+
+.container {
+height: 80px;
+width: 750px;
+margin-top: 15px;
+padding: 15px;
+border-left-color: rgb(177, 172, 172);
+border-left-style: solid;
+border-left-width: 10px;
+display: flex;
+display: block;
+align-items: center;
+}
+
+.answer {
+    background-color: rgb(224, 224, 138);
+    }
